@@ -18,7 +18,6 @@ def str_to_int(s):
             final+=2**(len(s)-i-1)
         i-=1
     return final
-# 补齐函数
 def enough_len(s,length):
     result=s
     if length==8:
