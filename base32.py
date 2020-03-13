@@ -8,7 +8,6 @@ base32_box=['A','B','C','D','E','F','G','H',
             'Y','Z','2','3','4','5','6','7']
 
             
-#二进制字符串转换为int数
 def str_to_int(s):
     final=0
     i=len(s)-1
@@ -23,7 +22,6 @@ def get_num(n):
         if j==n:
             result= i
     return result
-#字符串转换为二进制字符串
 def change_Str_to_binStr(Str):
     final=[]
     for i in Str:
